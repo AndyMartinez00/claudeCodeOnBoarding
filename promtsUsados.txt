@@ -5,5 +5,8 @@ a estas carpetas  para crear un big picture completo de la arquitectura del sist
 
 
 02-"Gracias excelente análisis arquitectura, ahora con esta información  que tienes en el contexto crea el archivo CLAUDE.md para que
-  se pueda utilizar  como memoria para el resto del desarrollo de este proyecto y tambien  que pueda usar el  documento              
-  ARCHITECTURE.md para el resto del desarrollo de este proyecto"
+se pueda utilizar  como memoria para el resto del desarrollo de este proyecto y tambien  que pueda usar el  documento              
+ARCHITECTURE.md para el resto del desarrollo de este proyecto"
+
+
+03-"ahora ayudame a tener el servicio de  @Backend/ corriendo en mi local, veras que ya tengo docker instalado y listo para correr"
