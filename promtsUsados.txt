@@ -22,4 +22,51 @@ en cada uno 	de los componentes del proyecto (bacnkend, frontend) para implement
 02-"ahora guarda utilizando el formato markdown, guardalo en un carpeta en el root que se llama analisis , crea la carpeta si no existe y dale un nombre adecuado con esta nomenclatura 00_nombre_del_analisis.md, 00 es un numero
   que incrementara a lo largo que se creen mas analisis inicia desde 00"
 
-  
+
+07-18-Creación de subagentes especializados en Claude Code para planificación
+
+dentro de claude [todos]
+ ---retomar el contexto
+/resume  {para retomar el contexto anterior}
+---lipiar el contexto
+/clear
+--creando sub agente  Manage agent configurations
+/agents
+❯ Create new agent
+-- Choose location
+  ❯ 1. Project (.claude/agents/)
+-- Creation method
+  ❯ 2. Manual configuration 
+--  Agent type (identifier)
+ Enter a unique identifier for your agent:
+ [architect]
+--  System prompt
+ Enter the system prompt for your agent:  
+ Be comprehensive for best results
+ [un system prompt]
+-- Description (tell Claude when to use this agent)
+
+  When should Claude use this agent?       
+  [en cualquier caso]
+-- Select tools                                          
+  ❯ [ Continue ]
+  ────────────────────────────────────────
+    ☒ All tools    
+    ☒ Read-only tools                                                                                                                
+    ☒ Edit tools                                                                                                                     
+    ☒ Execution tools
+    ☒ MCP tools
+    ☒ Other tools
+  ────────────────────────────────────────
+    [ Show advanced options ]
+
+  All tools selected
+--  Select model
+❯ 4. Inherit from parent  Use the same model as the main conversation
+--  Choose background color
+ ❯   Orange 
+ 
+ -- Configure agent memory 
+❯ 2. None (no persistent memory)
+
+
