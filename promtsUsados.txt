@@ -1,4 +1,9 @@
 05-18-Análisis de arquitectura full stack con Claude Code
 
 01-"Analiza el proyecto y entiende cómo es la arquitectura que tiene.  es importante que entiendas que hay más de un proyecto contenido en él @Backend/  @Frontend/  @Mobile/  Utiliza
-        a estas carpetas  para crear un big picture completo de la arquitectura del sistema, crea diagramas de flujo y diagramas de clases y un resumen"
+a estas carpetas  para crear un big picture completo de la arquitectura del sistema, crea diagramas de flujo y diagramas de clases y un resumen"
+
+
+02-"Gracias excelente análisis arquitectura, ahora con esta información  que tienes en el contexto crea el archivo CLAUDE.md para que
+  se pueda utilizar  como memoria para el resto del desarrollo de este proyecto y tambien  que pueda usar el  documento              
+  ARCHITECTURE.md para el resto del desarrollo de este proyecto"
