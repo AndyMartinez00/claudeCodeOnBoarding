@@ -10,3 +10,16 @@ ARCHITECTURE.md para el resto del desarrollo de este proyecto"
 
 
 03-"ahora ayudame a tener el servicio de  @Backend/ corriendo en mi local, veras que ya tengo docker instalado y listo para correr"
+
+06-18-Análisis de impacto del feature de ratings con Claude Code
+
+//Claude adaptive  (LN437)
+01-"necesito implementar un sistema de ratings en este proyecto, el rating de un curso puede ir desde 1 estrella hasta 5 estrellas. 
+Tu tarea es analizar el impacto que va a tener la implementación de este feature en el proyecto. Analiza que acciones deben hacerse 
+en cada uno 	de los componentes del proyecto (bacnkend, frontend) para implementar el rating, excluye por ahora el proyecto mobile."
+
+
+02-"ahora guarda utilizando el formato markdown, guardalo en un carpeta en el root que se llama analisis , crea la carpeta si no existe y dale un nombre adecuado con esta nomenclatura 00_nombre_del_analisis.md, 00 es un numero
+  que incrementara a lo largo que se creen mas analisis inicia desde 00"
+
+  
