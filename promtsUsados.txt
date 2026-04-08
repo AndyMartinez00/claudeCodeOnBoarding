@@ -69,4 +69,6 @@ dentro de claude [todos]
  -- Configure agent memory 
 ❯ 2. None (no persistent memory)
 
+--copiamos cofinguracion de  de arquitectura
+https://github.com/platzi/claude-code/blob/master/.claude/agents/architect.md
 
