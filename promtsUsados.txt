@@ -30,7 +30,7 @@ dentro de claude [todos]
 /resume  {para retomar el contexto anterior}
 ---lipiar el contexto
 /clear
---creando sub agente  Manage agent configurations
+01-creando sub agente  Manage agent configurations
 /agents
 ❯ Create new agent
 -- Choose location
@@ -69,6 +69,16 @@ dentro de claude [todos]
  -- Configure agent memory 
 ❯ 2. None (no persistent memory)
 
---copiamos cofinguracion de  de arquitectura
+02-copiamos cofinguracion de  de arquitectura
 https://github.com/platzi/claude-code/blob/master/.claude/agents/architect.md
+
+03-usando el agente
+ @"architect (agent)" utiliza el contexto que tenemos en la conversación para el análisis del impacto que se debes hacer, apóyate en lo
+ que ya esta  descubierto y usando lo cotenido en la carpeta  @analisis/  el archivo 00_sistema_de_ratings.md  y crea el plan de               
+ implementación con diagramas de flujo y de clases con un resumen                 
+
+04-usando el prompt para alamacenar lo generado por  el agente @"architect (agent)"
+ahora guarda utilizando el formato que tiene el subagente de arquitecto el plan de implementacion dentro del proyecto, guardalo en un carpeta en el  
+  root que se llama aspecto , crea la carpeta si no existe y dale un nombre adecuado con esta nomenclatura 00_nombre_del_aspecto.md, 00 es un numero
+  que incrementara a lo largo que se creen mas aspectos
 
