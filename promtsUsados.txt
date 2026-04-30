@@ -82,3 +82,96 @@ ahora guarda utilizando el formato que tiene el subagente de arquitecto el plan 
   root que se llama aspecto , crea la carpeta si no existe y dale un nombre adecuado con esta nomenclatura 00_nombre_del_aspecto.md, 00 es un numero
   que incrementara a lo largo que se creen mas aspectos
 
+
+08-18-Actualización de Claude Code a versión 2.0 y mejoras de Sonnet 4.5
+
+01--actualizar claude  
+
+@AM1000897GT ➜ claude-code git(feature/cluaudeSequence) claude update
+Current version: 2.1.108
+Checking for updates to latest version...
+New version available: 2.1.109 (current: 2.1.108)
+Installing update...
+Using global installation update method...
+Successfully updated from 2.1.108 to version [2.1.109]
+
+
+02--extension {claude code } se actuliza desde consola con {[claude update]01-actualizar claude }
+ @AM1000897GT ➜ claude-code git(feature/cluaudeSequence) claude update
+Instalación
+Identificador
+anthropic.claude-code
+Versión
+[2.1.109]-----------   
+Última actualización
+2026-04-15, 11:50:24
+
+03--retorando al punto de partida o CHECKPOINT
+pompt:
+en el archivo @aspecto/00_plan_implementacion_ratings.md  agrega una parte en la que expliques como fuciona un LLm (debe se un        
+  ejemplo corto para demostrar qu es un LLM 
+ --par expander el pensamiento
+ Read 1 file (ctrl+o to expand)
+ --doble [ESC]
+ @"architect (agent)" utiliza el contexto que tenemos en la conversación para el análisis del impacto que se debes hacer, apóya…
+   No code changes       
+                
+   ahora guarda utilizando el formato que tiene el subagente de arquitecto el plan de implementacion dentro del proyecto, guardal…
+   00_plan_implementacion_ratings.md +1063 -0
+-------------
+ ❯ en el archivo @aspecto/00_plan_implementacion_ratings.md  agrega una partw en la que expliques como fuciona un LLm (debe se un…
+   00_plan_implementacion_ratings.md +50 -0
+
+   (current)
+-----------------
+Rewind
+
+ Confirm you want to restore to the point before you sent this message:
+
+ │ en el archivo @aspecto/00_plan_implementacion_ratings.md  agrega una partw en la que expliques como fuciona un LLm (debe se un ejemplo
+ │  corto para demostrar qu es un LLM
+ │ (11m ago)
+
+ The conversation will be forked.
+ The code will be restored +0 -50 in 00_plan_implementacion_ratings.md.
+
+ ❯ 1. Restore code and conversation {restaurar el codigo y la conversacion}
+   2. Restore conversation          {restaurar solo la conversacion}
+   3. Restore code                  {restaurar solo el codigo}
+   4. Summarize from here           {resmir desde actualización}
+   5. Never mind                    {nada importa}
+
+ 03--modo de pensamiento
+  antes:
+  --un [TAB] para ver modod de pensmaiento
+   ❯ ultrathink    para ver  pensamiento                                                           
+  ahora
+  --actual con alt + t,
+    Enable or disable thinking for this session.                                                                      
+
+  ❯ 1. Enabled ✔  Claude will think before responding
+    2. Disabled   Claude will respond without extended thinking
+
+  Enter to confirm · Esc to exit
+  Thinking on
+
+04-usage 
+ dentro de claude  usage para seber cuento se a usado claude
+ ❯ /usage 
+ Current session                                                                                                   
+                                                     0% used                                                        
+  Resets 8pm (America/Guatemala)                                                                                    
+                                                                                                                    
+  Current week (all models)
+  █                                                  2% used
+  Resets Apr 24, 9am (America/Guatemala)       
+
+05-busqueda recursiva  sobre historial de prompts
+ dentro de claude
+ ctrl +r DAMOS un idicio delo buscado:
+ 
+  ───────────────────────────────────────────────────────────────────────────────────────────────────
+❯ en el archivo @aspecto/00_plan_implementacion_ratings.md  agrega una partw en la que expliques
+  como fuciona un LLm (debe se un ejemplo corto para demostrar qu es un LLM   
+   search prompts: [LLm]                      
+   search prompts: LLm      
