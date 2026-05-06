@@ -84,3 +84,80 @@ Porque dentro de Claude Code hay dos tipos de interacción:
 ## 03.05- Curso de tips y trucos de IA
 
 - https://platzi.com/cursos/trucos-ia/
+
+# 04-18-Fundamentos de Claude Code: contexto, subagentes y herramientas
+
+## 04.00 cinco conceptos que determinates
+
+### 04-00-02 como piensan , recuerda, colabora
+
+- ventana de contexto
+- subagentes
+- model context proptocol
+- CLI
+- context engineering
+
+## 04.01 ¿Qué es la ventana de contexto y por qué define tu resultado?
+
+La ventana de contexto es la memoria de trabajo de Claude Code: todo lo que puede procesar y recordar al mismo tiempo, incluyendo tu código, la conversación y los resultados. Por defecto maneja doscientos mil tokens y existe una versión de un millón de tokens, suficiente para analizar proyectos medianos o incluso grandes. Si la memoria se llena, Claude limpia lo irrelevante y conserva lo útil.
+
+- Memoria de trabajo con código, conversación y resultados.
+- Capacidad por defecto de doscientos mil tokens.
+- Opción de un millón de tokens para mayor escala.
+- Gestión automática del espacio para mantener lo importante.
+
+## 04.02 ¿Cómo optimizar la memoria con referencias y sesiones?
+
+En la práctica, el contexto se cuida con referencias en lugar de pegar grandes bloques. Si notas olvidos, reinicia el hilo y vuelve a fijar lo esencial.
+
+- Referencia archivos con el símbolo arroba en lugar de copiar código.
+- Si olvida decisiones o detalles, abre una nueva sesión.
+- Vuelve a referenciar archivos clave para reenfocar la conversación.
+- Mantén el intercambio limpio de información innecesaria.
+
+## 04.03 ¿Cómo colaboran los subagentes y se mantiene el flujo modular?
+
+Los subagentes funcionan como miembros especializados de un equipo: cada uno con su propio contexto, herramientas y conocimiento técnico. El de arquitectura analiza la estructura del sistema, el de backend implementa APIs, el de frontend construye componentes de interfaz y el de QA valida la calidad final. Así, se evita saturar la sesión principal y se trabaja de forma modular.
+
+- Especialización por tarea para mayor precisión.
+- Contextos separados que no saturan la conversación principal.
+- Flujo similar al de un equipo de desarrollo real.
+
+## 04.04 ¿Cuándo invocar cada subagente?
+
+Elige el especialista adecuado según el objetivo. El resultado es más enfocando y eficiente.
+
+- Agente de backend para endpoints y APIs.
+- Agente de frontend para componentes de interfaz.
+- Agente de QA para pruebas y validación de calidad.
+- Agente de arquitectura para visión y estructura del sistema.
+
+## 04.05 ¿Cómo se integran MCP y la CLI y qué es el context engineering?
+
+El tercer y cuarto pilar se complementan: MCP conecta Claude Code con tus herramientas y la CLI es la interfaz donde todo sucede. Con MCP, puedes acceder a bases de datos, correr pruebas y revisar cambios; con la CLI, Claude ejecuta comandos, analiza salidas y te ayuda a interpretarlas, manteniendo el flujo: la terminal para Claude, el editor para escribir y el navegador para validar.
+
+### 04.05-01 ¿Qué permite MCP con tus herramientas?
+
+La integración ocurre de forma natural, como si fueran funciones nativas, tras una configuración única.
+
+-Acceder a bases de datos para consultas.
+-Ejecutar pruebas automatizadas, por ejemplo con Playwright.
+-Revisar issues y pull request en GitHub.
+-Interactuar con servicios como Figma o Zapier.
+
+### 04.05-02 ¿Cómo usar la CLI sin romper el flujo?
+
+Claude vive en la terminal, el mismo lugar donde ya usas Git, Docker o NPM.
+
+- Ejecuta comandos con prefijo de signo de exclamación.
+- Analiza resultados y ofrece interpretación útil.
+  -Mantén roles claros: terminal para Claude, editor para código, navegador para - validación.
+
+### 04.05-02 ¿Qué es el context engineering en la práctica?
+
+No se trata de escribir la instrucción perfecta, sino de diseñar un espacio de pensamiento compartido con los datos adecuados.
+
+- Evita instrucciones vagas que generan ruido.
+- Define propósito, límites y criterios de calidad.
+- Usa referencias a archivos en lugar de pegar código.
+- Indica patrones a seguir o evitar y limpia lo innecesario.
