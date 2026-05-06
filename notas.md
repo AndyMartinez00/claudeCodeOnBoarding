@@ -161,3 +161,20 @@ No se trata de escribir la instrucción perfecta, sino de diseñar un espacio de
 - Define propósito, límites y criterios de calidad.
 - Usa referencias a archivos en lugar de pegar código.
 - Indica patrones a seguir o evitar y limpia lo innecesario.
+
+# 05-18-Análisis de arquitectura full stack con Claude Code
+
+### 05-18-01- prompt inicial del proyecto
+
+Analiza el proyecto y entiende cómo es la arquitectura que tiene. es importante que entiendas que hay más de un proyecto contenido en él @Backend/ @Frontend/ @Mobile/ Utiliza a estas carpetas para crear un big picture completo de la arquitectura del sistema, crea diagramas de flujo y diagramas de clases y un resumen
+
+### 05-18-02- prompt del proyecto
+
+Gracias excelente análisis arquitectura, ahora con esta información que tienes en el contexto crea el archivo claude.md para que se pueda
+utilizar como memoria para el resto del desarrollo de este proyecto.
+
+### 05-18-03- prompt levantando el servicio
+
+Ayudamé a tener el servicio de @backend/ correindo en mi local, verás que ya tengo docker instalado y listo para correr.
+
+Ayudamé a tener el servicio de @backend/ correindo en mi local, verás que ya tengo docker instalado y listo para correr. y deja una seccion con las intrucciones de como levantar eventualmente en el archivo arquitectura.md
